@@ -1,9 +1,10 @@
 # SRBD Internship - Assessment Tasks
 
-# Task 03 - Blog
-## Health Sensor Pro (Task 2)
+## Task 3: Blog Documentation for Health Sensor Pro Implementation
 
-A professional Android application that goes beyond basic sensor reading by implementing health metrics calculation and activity recognition.
+### Application: Health Sensor Pro (Task 2 Implementation)
+
+An Android application that goes beyond basic sensor readings by calculating health metrics and recognising activities.
 
 ---
 
@@ -53,6 +54,65 @@ Instead of just displaying raw sensor values, this project demonstrates:
 
 # HealthSensorPro
 
+## Sensor Data Testing Results
+
+*Testing motion detection algorithms using Android Studio's virtual sensors to validate activity classification.*
+
+<div style="display: flex; flex-wrap: wrap; gap: 20px; margin-top: 30px;">
+  
+  <div style="flex: 1; min-width: 300px;">
+    <h3>1. Stationary State</h3>
+    <p><strong>Condition:</strong> Device at rest on flat surface</p>
+    <p><strong>Expected:</strong> Minimal acceleration values</p>
+    <p><strong>Observed:</strong> Near-zero values confirming idle detection</p>
+  </div>
+  
+  <div style="flex: 1; min-width: 200px; text-align: center;">
+    <img src="https://github.com/user-attachments/assets/a4a1b625-db31-41ce-949e-5bc846cc2882" 
+         alt="Stationary sensor readings" 
+         width="200" 
+         style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  </div>
+  
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 20px; margin-top: 40px;">
+  
+  <div style="flex: 1; min-width: 300px;">
+    <h3>2. Walking Simulation</h3>
+    <p><strong>Condition:</strong> Simulating walking motion</p>
+    <p><strong>Expected:</strong> Periodic acceleration patterns</p>
+    <p><strong>Observed:</strong> Sinusoidal waveforms for step detection</p>
+  </div>
+  
+  <div style="flex: 1; min-width: 200px; text-align: center;">
+    <img src="https://github.com/user-attachments/assets/80c15e01-e295-4903-bd6e-36f4454bb8c6" 
+         alt="Walking simulation sensor readings" 
+         width="200"
+         style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  </div>
+  
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 20px; margin-top: 40px;">
+  
+  <div style="flex: 1; min-width: 300px;">
+    <h3>3. Running Simulation</h3>
+    <p><strong>Condition:</strong> Simulating running motion</p>
+    <p><strong>Expected:</strong> Higher amplitude peaks</p>
+    <p><strong>Observed:</strong> Intense patterns for activity classification</p>
+  </div>
+  
+  <div style="flex: 1; min-width: 200px; text-align: center;">
+    <img src="https://github.com/user-attachments/assets/ad081bbe-a630-4259-bbae-8ed140024e9c" 
+         alt="Running simulation sensor readings" 
+         width="200"
+         style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  </div>
+  
+</div>
+
+## Project Structure
 ```
 HealthSensorPro/
 ├── app/
